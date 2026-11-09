@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observatoire du Territoire - PNR Landes de Gascogne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="homepage">
+
+    <header>
+        <div class="container header-flex">
+	    <div class="logo-area">
+                <img src="landes.jpg" alt="Logo PNR Landes de Gascogne" class="site-logo">
+                <div class="site-titles">
+                    <h1>Observatoire du Territoire</h1>
+                    <p class="subtitle">PNR des Landes de Gascogne</p>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Introduction</a></li>
+                    <li><a href="geographie.html">Géographie</a></li>
+                    <li><a href="patrimoine.html">Patrimoine</a></li>
+                    <li><a href="biodiversite.html">Biodiversité</a></li>
+                    <li><a href="amenagement.html">Aménagement</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section" style="background-image: linear-gradient(rgba(44, 62, 80, 0.7), rgba(105, 157, 65, 0.8)), url('fond-pnr.jpg');">
+            <div class="container hero-content">
+                <h2>Pourquoi un Observatoire ?</h2>
+                <p class="pourquoi-comment">L'Observatoire du territoire est un outil de compréhension et de découvertes des dynamiques locales. Il permet de suivre l'évolution des paysages, de la biodiversité et de l'occupation du sol, cela pour mieux piloter les politiques publiques de demain. Il sert à sensibiliser le grand public et à adapter l'urbanisme face au changement climatique. Cette Observatoire vise à regarder sous un nouvel oeil le PNR, en collaboration avec le site officiel.</p>
+                <a href="geographie.html" class="cta-button">Découvrir le Territoire</a>
+            </div>
+        </section>
+
+        <section class="grid-feature container">
+            <div class="feature-card">
+                <div class="icon">🔍</div>
+                <h3>Suivre les Évolutions</h3>
+                <p>Analyser les données clés pour comprendre comment le territoire change.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🌿</div>
+                <h3>Analyser la Biodiversité</h3>
+                <p>Mesurer la santé des lagunes et des milieux naturels fragiles.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🏙️</div>
+                <h3>Comprendre l'Aménagement</h3>
+                <p>Les aménagements du parc qui élèvent un lieu touristique.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📢</div>
+                <h3>Sensibiliser le Public</h3>
+                <p>Partager la connaissance du territoire avec tous les citoyens.</p>
+            </div>
+        </section>
+
+        <section class="main-callout full-width dark-green">
+            <div class="container callout-flex">
+                <div class="callout-text">
+                    <h2>Un Territoire Unique</h2>
+                    <p>Le Parc s'étend sur plus de 315 300 hectares, de la Haute Lande au Delta de la Leyre. C'est un espace de contrastes, mêlant forêt de pins, zones humides et paysages côtiers.</p>
+                    <a href="geographie.html" class="cta-button secondary">Consulter les Chiffres Clés</a>
+                </div>
+                <div class="callout-image-placeholder">
+                    <p><!-- Add script to the <head> of your page to load the embeddable map component -->
+<script type="module" src="https://js.arcgis.com/5.0/embeddable-components/"></script>
+<!-- Add custom element to <body> of your page -->
+ <arcgis-embedded-map style="height:600px;width:700px;" item-id="25ec2f1540f140cb9a8890a4dbc0621e" theme="light" heading-enabled legend-enabled time-zone-label-enabled center="-0.5036792131781422,44.42250001938858"scale="1155581.108577" portal-url="https://unistra.maps.arcgis.com"></arcgis-embedded-map></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 - Master 1 OTG - Projet Observatoire PNR Landes de Gascogne</p>
+            <p>Source de données : IGN, INSEE, OSM.</p>
+	    <p>Crédits : Louis BOCQUET</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
